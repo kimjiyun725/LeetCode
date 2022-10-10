@@ -23,7 +23,7 @@ def findPairs(self, nums: List[int], k: int) -> int:
     return len(pairs.keys())
 
 # https://leetcode.com/problems/k-diff-pairs-in-an-array/
-# Time Complexity: O(3n) aka O(n). O(n) where n = length of list "nums"
-# and there are for loops that uses nums' length 
+# Time Complexity: O(nlogn). O(nlogn) because of line 9 which uses the sort() function.
+# the sort() function uses the Timsort algorithm.
 # Space Complexity: O(n + n/2) aka O(n). O(n) because line 2 will create a dictonary with
 # n'th keys (a little less since there are no dupes within its conditions).
