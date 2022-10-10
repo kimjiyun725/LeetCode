@@ -14,7 +14,8 @@ def pivotIndex(self, nums: List[int]) -> int:
             return i
                 
     return -1
-            
+
+# https://leetcode.com/problems/find-pivot-index/           
 # Time Complexity: O(n+n) aka O(n). O(n) where n = length of list "nums"
 # Space Complexity: O(n+n) aka O(n). O(n) where n = length of list "nums". 
 # There are two variables, "l_sum" and "r_sum", that are updating inside a for loop.
