@@ -26,5 +26,4 @@ def btHelper(self, root, curr_path, ans):
 
 # https://leetcode.com/problems/binary-tree-paths/
 # Time Complexity: O(n) where n = amount of nodes in the binary tree
-# Space Complexity: O((n+1)/2) aka O(logn) where n = amount of nodes in the binary tree
-# and (n+1)/2 = amount of leaves in a complete binary tree which is the worst case scenario
+# Space Complexity: O(logn) from recursion
