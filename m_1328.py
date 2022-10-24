@@ -13,8 +13,8 @@ def breakPalindrome(self, palindrome: str) -> str:
     return ''.join([palindrome[:smallest_idx], 'a', palindrome[smallest_idx+1:]])
 
 # https://leetcode.com/problems/break-a-palindrome/
-# Time Complextiy: O(n) 'palindrome' is length of n and all for-loops iterates
+# Time Complextiy: O(n) where 'palindrome' is length of n and all for-loops iterates
 # half of its length
 # Space Complexity: O(n) because dictionary size is n // 2 where 
-# length of 'palindrome'
+# n == length of 'palindrome'
 
