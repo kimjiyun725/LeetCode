@@ -17,8 +17,8 @@ def breakPalindrome(self, palindrome: str) -> str:
 
 
 # https://leetcode.com/problems/break-a-palindrome/
-# Time Complextiy: O(logn) 'palindrome' is length of n and all for-loops iterates
+# Time Complextiy: O(n) 'palindrome' is length of n and all for-loops iterates
 # half of its length
-# Space Complexity: O(logn) because dictionary size is n // 2 where 
+# Space Complexity: O(n) because dictionary size is n // 2 where 
 # length of 'palindrome'
 
